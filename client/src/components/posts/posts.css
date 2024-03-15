@@ -4,3 +4,13 @@
     flex-wrap: wrap;
     margin: 20px;
 }
+
+.postButton{
+    border: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: white;
+}

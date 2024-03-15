@@ -11,6 +11,7 @@ export default function PostGoogle() {
              <span className="postCat"></span>
          </div>
          <span className="postTitle"> Google Lens & Co: Wie Apps unseren Pflanzen helfen können.</span>
+         <button className="postButton" onClick={handleClick}>Google Lens & Co: Wie Apps unseren Pflanzen helfen können</button>
          <hr />
          <span className="postDate"> 05.03.2024</span>
       </div>
@@ -19,3 +20,5 @@ export default function PostGoogle() {
     </div>
   )
 }
+
+const handleClick = alert("I was clicked");

@@ -1,0 +1,16 @@
+.sumblog{
+    margin-top: 30px;
+    font-family: "Lora", serif;
+    font: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sumblogH{
+    color: #a21f49;
+}
+
+.sumblogT{
+    margin: 100px;
+}
