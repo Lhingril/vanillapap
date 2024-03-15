@@ -1,0 +1,9 @@
+.sumblog{
+    margin-top: 30px, 60px, 10px, 60px;
+    font-family: "Lora", serif;
+    font: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #a21f49;
+}

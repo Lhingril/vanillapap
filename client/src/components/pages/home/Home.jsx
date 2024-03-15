@@ -11,4 +11,9 @@ export default function Home() {
         <Header/>
         <SumBlog/>
         <div className="home">
-          <HardcodedPost
+          <HardcodedPosts/>
+          <Sidebar/>
+        </div> 
+    </div>
+  )
+}
