@@ -1,0 +1,59 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://cdn.pixabay.com/photo/2018/05/13/17/08/notebook-3397136_960_720.jpg");
+    background-size: cover;
+}
+
+
+.registerTitle {
+    font-size: 50px;
+    font-family: "Lora", serif;
+}
+
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.registerForm>label {
+    margin: 10px 0;
+    font-family: "Varela Round", sans-serif;
+}
+
+
+.registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+
+.registerBttn {
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #449452;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.registerLoginBttn {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #8c5957;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
