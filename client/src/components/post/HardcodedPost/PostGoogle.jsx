@@ -1,4 +1,5 @@
 import "../post.css"
+import "../../singlePost/hardcoded/GooglePost"
 
 export default function PostGoogle() {
   return (
